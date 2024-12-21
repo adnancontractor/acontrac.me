@@ -14,11 +14,22 @@
         }
 
         header {
-            background-color: black;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+        background-color: black;
+        color: white;
+        padding: 20px 0;  /* Same padding for consistent header height */
+        text-align: center;
+        margin: 0;  /* Remove any default margin that might affect positioning */
+    }
+
+    header h1 {
+        font-size: 2.5em;  /* Optional: adjust if needed for consistency */
+        margin-bottom: 10px; /* Space between the title and text */
+    }
+
+    header p {
+        font-size: 1.2em;  /* Optional: adjust if needed */
+        margin: 0;  /* Remove any default margin */
+    }
 
         nav {
             background-color: black;
